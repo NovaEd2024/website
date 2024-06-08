@@ -1,6 +1,6 @@
-# Open Project
+# Nova ED
 
-The Open Project website created with React.
+The NovaED website created with React.
 
 Make sure to npm install!
 

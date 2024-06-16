@@ -24,6 +24,6 @@ function ResourcesButton({ button, content, state }) {
       </div>
     </div>
   );
-}*/ 
+}
 
-export default ResourcesButton;
+export default ResourcesButton;*/ 

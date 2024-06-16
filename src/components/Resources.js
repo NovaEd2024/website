@@ -1,4 +1,4 @@
-import starthere from './resources-content/starthere';
+/* import starthere from './resources-content/starthere';
 import git from './resources-content/git';
 import github from './resources-content/github';
 import githubLeads from './resources-content/githubLeads';
@@ -43,4 +43,4 @@ export default function Resources() {
             </div>
         </div>
     );
-}
+}*/ 

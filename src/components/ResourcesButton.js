@@ -1,4 +1,4 @@
-import { useState } from 'react';
+/*import { useState } from 'react';
 import styles from '../css/ResourcesButton.module.css';
 
 function ResourcesButton({ button, content, state }) {
@@ -24,6 +24,6 @@ function ResourcesButton({ button, content, state }) {
       </div>
     </div>
   );
-}
+}*/ 
 
 export default ResourcesButton;

@@ -32,7 +32,7 @@
 }
 
 .fullform {
-    background-color: #F9C12C;
+    background-color: rgb(8, 3, 77);
     padding: 40px;
     width: 70%;
     border-radius: 20px;
@@ -62,11 +62,11 @@
 }
 
 .submit {
-    background-color: #2D5DED;
+    background-color: rgb(90, 217, 128);
     border: none;
     font-family: 'Brother Bold';
     font-size: 18px;
-    color: white;
+    color: black;
     padding: 10px 20px;
     border-radius: 10px;
     margin: 20px 0;

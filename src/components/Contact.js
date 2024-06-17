@@ -2,10 +2,21 @@ import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import styles from '../css/Contact.module.css';
 import homepageShapes from '../images/homepage-shapes.png';
+import { NavLink }from 'react-router-dom';
+
 
 export default function Contact() {
+  const activeLink = ({ isActive }) => isActive ? `${styles.activeLink}` : '';
+  const [active, setActive] = useState(false);
   const form = useRef();
   const [sent, setSent] = useState("notsent");
+
+  function deActivate() {
+    if (active) {
+        setActive(false)
+        document.body.style.overflow = "visible";
+    }
+}
 
   const sendEmail = (e) => {
       e.preventDefault();
@@ -23,13 +34,13 @@ export default function Contact() {
         <div className={styles.addMargin}>
           <div className={styles.cover}>
             <div className={styles.coverLeft}>
-              <h1 className={styles.blueText}>Experience</h1>
-              <h1 className={styles.orangeText}>For All.</h1>
+              <h1 className={styles.blueText}>Sign up for</h1>
+              <h1 className={styles.orangeText}><div className={active ? `${styles.linksActive}` : `${styles.links}`} onClick={deActivate}>
+        <a href='https://qualtricsxmdq6yb4lzd.qualtrics.com/jfe/form/SV_8Bx6vSD8vAF5KgC' className={activeLink}>our waitlist here!</a>
+      </div></h1>
               <h2>If you have any questions, concerns or simply want to say hello, please don't hesitate to reach out to us through the form provided!</h2>
             </div>
-            <div className={styles.coverRight}>
-              <img src={homepageShapes} alt="Homepage Shapes" />
-            </div>
+            
           </div>
           <form ref={form} onSubmit={sendEmail} className={styles.fullform}>
               <div className={styles.form}>

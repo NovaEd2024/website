@@ -1,5 +1,5 @@
 import styles from '../css/Header.module.css';
-import logo from '../images/logo.png';
+import logo from '../images/about/nova_ed_new_logo_header_footer.png';
 import { NavLink }from 'react-router-dom';
 import { useState } from 'react';
 
@@ -28,10 +28,7 @@ export default function Header() {
     <header className={styles.header} id="header">
       <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
       <div className={active ? `${styles.linksActive}` : `${styles.links}`} onClick={deActivate}>
-        <NavLink to="/about" className={activeLink}>about</NavLink>
-        <NavLink to="/apply" className={activeLink}>apply</NavLink>
         <NavLink to="/contact" className={activeLink}>contact</NavLink>
-        <NavLink to="/resources" className={activeLink}>resources</NavLink>
       </div>
       <div className={styles.hamburger}>
         <div className={styles.hamburger} onClick={hamburgerMode}>

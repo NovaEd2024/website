@@ -20,12 +20,12 @@
 
 .aboutBottomHalf h1 {
     font-family: 'Brother Bold';
-    color: #FF9C03;
+    color: rgb(8, 3, 77);
 }
 
 .people {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -41,7 +41,7 @@
     display: flex;
     /* clip-path: circle(); */
     object-fit: cover; /* Maintain aspect ratio and fill the container */
-  border-radius: 50%;
+  border-radius: 0%;
     max-width: 100%;
 }
 
@@ -101,7 +101,7 @@
 }
 
 #blueCurve {
-    margin-top: -200px;
+    margin-top: -100px;
 }
 
 .aboutUs {

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.519339b7.css",
-    "main.js": "/website/static/js/main.9c7ecd83.js",
-    "static/js/787.61dc31b3.chunk.js": "/website/static/js/787.61dc31b3.chunk.js",
+    "main.css": "/website/static/css/main.af3787c9.css",
+    "main.js": "/website/static/js/main.1ec408da.js",
+    "static/js/453.be191379.chunk.js": "/website/static/js/453.be191379.chunk.js",
     "static/media/pratush_sexy.jpg": "/website/static/media/pratush_sexy.bc89b20c9ca8a2625b4b.jpg",
     "static/media/siddharth.jpeg": "/website/static/media/siddharth.422d545121c1d31a0f4a.jpeg",
     "static/media/nova_ed_new_logo_header_footer.png": "/website/static/media/nova_ed_new_logo_header_footer.980a33b768af5706c29f.png",
@@ -23,12 +23,12 @@
     "static/media/inclusiveCommunity.png": "/website/static/media/inclusiveCommunity.188f43b22165f09fb911.png",
     "static/media/orangecurve.png": "/website/static/media/orangecurve.37570446d12d9c7c1263.png",
     "index.html": "/website/index.html",
-    "main.519339b7.css.map": "/website/static/css/main.519339b7.css.map",
-    "main.9c7ecd83.js.map": "/website/static/js/main.9c7ecd83.js.map",
-    "787.61dc31b3.chunk.js.map": "/website/static/js/787.61dc31b3.chunk.js.map"
+    "main.af3787c9.css.map": "/website/static/css/main.af3787c9.css.map",
+    "main.1ec408da.js.map": "/website/static/js/main.1ec408da.js.map",
+    "453.be191379.chunk.js.map": "/website/static/js/453.be191379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.519339b7.css",
-    "static/js/main.9c7ecd83.js"
+    "static/css/main.af3787c9.css",
+    "static/js/main.1ec408da.js"
   ]
 }

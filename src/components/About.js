@@ -12,7 +12,7 @@ import teamCover from "../images/about/nova_about_page.png";
 // active members
 import rohan from "../images/about/rohan.jpeg";
 import siddharth from "../images/about/siddharth.jpeg"
-import pratush from "../images/about/pratush_sexy.jpg"
+import pratush from "../images/about/pratush.jpeg"
 
 
 export default function About() {
